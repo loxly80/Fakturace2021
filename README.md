@@ -1,3 +1,2 @@
 # Fakturace2021
 
-Dělám to lokálně, problémy s githubem, po půl hodině jsem nic neměl...

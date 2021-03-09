@@ -1,4 +1,4 @@
-﻿namespace TestFakturacePtacnik
+﻿namespace FakturaceTestPtacnik
 {
     partial class Form1
     {
@@ -30,46 +30,57 @@
         {
             this.buttonZakaznici = new System.Windows.Forms.Button();
             this.buttonZbozi = new System.Windows.Forms.Button();
-            this.buttonFakturace = new System.Windows.Forms.Button();
+            this.buttonTvorbaFaktur = new System.Windows.Forms.Button();
+            this.buttonStatistiky = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // buttonZakaznici
             // 
             this.buttonZakaznici.Location = new System.Drawing.Point(12, 12);
             this.buttonZakaznici.Name = "buttonZakaznici";
-            this.buttonZakaznici.Size = new System.Drawing.Size(161, 130);
+            this.buttonZakaznici.Size = new System.Drawing.Size(173, 143);
             this.buttonZakaznici.TabIndex = 0;
             this.buttonZakaznici.Text = "Zákazníci";
             this.buttonZakaznici.UseVisualStyleBackColor = true;
+            this.buttonZakaznici.Click += new System.EventHandler(this.buttonZakaznici_Click);
             // 
             // buttonZbozi
             // 
-            this.buttonZbozi.Location = new System.Drawing.Point(179, 12);
+            this.buttonZbozi.Location = new System.Drawing.Point(191, 12);
             this.buttonZbozi.Name = "buttonZbozi";
-            this.buttonZbozi.Size = new System.Drawing.Size(161, 130);
+            this.buttonZbozi.Size = new System.Drawing.Size(173, 143);
             this.buttonZbozi.TabIndex = 1;
             this.buttonZbozi.Text = "Zboží";
             this.buttonZbozi.UseVisualStyleBackColor = true;
+            this.buttonZbozi.Click += new System.EventHandler(this.buttonZbozi_Click);
             // 
-            // buttonFakturace
+            // buttonTvorbaFaktur
             // 
-            this.buttonFakturace.Location = new System.Drawing.Point(347, 12);
-            this.buttonFakturace.Name = "buttonFakturace";
-            this.buttonFakturace.Size = new System.Drawing.Size(161, 130);
-            this.buttonFakturace.TabIndex = 2;
-            this.buttonFakturace.Text = "Fakturace";
-            this.buttonFakturace.UseVisualStyleBackColor = true;
+            this.buttonTvorbaFaktur.Location = new System.Drawing.Point(370, 12);
+            this.buttonTvorbaFaktur.Name = "buttonTvorbaFaktur";
+            this.buttonTvorbaFaktur.Size = new System.Drawing.Size(173, 143);
+            this.buttonTvorbaFaktur.TabIndex = 2;
+            this.buttonTvorbaFaktur.Text = "Tvorba faktur";
+            this.buttonTvorbaFaktur.UseVisualStyleBackColor = true;
+            // 
+            // buttonStatistiky
+            // 
+            this.buttonStatistiky.Location = new System.Drawing.Point(549, 12);
+            this.buttonStatistiky.Name = "buttonStatistiky";
+            this.buttonStatistiky.Size = new System.Drawing.Size(173, 143);
+            this.buttonStatistiky.TabIndex = 3;
+            this.buttonStatistiky.Text = "Statistiky";
+            this.buttonStatistiky.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(520, 156);
-            this.Controls.Add(this.buttonFakturace);
+            this.ClientSize = new System.Drawing.Size(730, 163);
+            this.Controls.Add(this.buttonStatistiky);
+            this.Controls.Add(this.buttonTvorbaFaktur);
             this.Controls.Add(this.buttonZbozi);
             this.Controls.Add(this.buttonZakaznici);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.MaximizeBox = false;
             this.Name = "Form1";
             this.Text = "Formulář";
             this.ResumeLayout(false);
@@ -80,7 +91,8 @@
 
         private System.Windows.Forms.Button buttonZakaznici;
         private System.Windows.Forms.Button buttonZbozi;
-        private System.Windows.Forms.Button buttonFakturace;
+        private System.Windows.Forms.Button buttonTvorbaFaktur;
+        private System.Windows.Forms.Button buttonStatistiky;
     }
 }
 

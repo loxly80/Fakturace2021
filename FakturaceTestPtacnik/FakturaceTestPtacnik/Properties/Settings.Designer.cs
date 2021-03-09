@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace TestFakturacePtacnik.Properties
+namespace FakturaceTestPtacnik.Properties
 {
 
 

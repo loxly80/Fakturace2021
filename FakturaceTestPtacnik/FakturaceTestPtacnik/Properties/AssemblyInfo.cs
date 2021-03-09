@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // Obecné informace o sestavení se řídí přes následující 
 // sadu atributů. Změnou hodnot těchto atributů se upraví informace
 // přidružené k sestavení.
-[assembly: AssemblyTitle("TestFakturacePtacnik")]
+[assembly: AssemblyTitle("FakturaceTestPtacnik")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("TestFakturacePtacnik")]
+[assembly: AssemblyProduct("FakturaceTestPtacnik")]
 [assembly: AssemblyCopyright("Copyright ©  2021")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // Následující GUID se používá pro ID knihovny typů, pokud je tento projekt vystavený pro COM.
-[assembly: Guid("35d08b3e-adcd-4cf3-99b5-6cccacd6814b")]
+[assembly: Guid("e70c4526-a992-4e4f-8d04-7010c28a8205")]
 
 // Informace o verzi sestavení se skládá z těchto čtyř hodnot:
 //

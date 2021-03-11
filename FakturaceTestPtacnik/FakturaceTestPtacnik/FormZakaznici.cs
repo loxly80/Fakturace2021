@@ -49,5 +49,18 @@ namespace FakturaceTestPtacnik
             sloupecTrideni = e.Column;
             NactiData();
         }
+
+        private void toolStripMenuItemVytvoritFakturu_Click(object sender, EventArgs e)
+        {
+            if(listViewZakaznici.SelectedIndices.Count > 0)
+            {
+                FormTvorbaFaktur formTvorbaFaktur = new FormTvorbaFaktur(zakaznici[listViewZakaznici.SelectedIndices[0]]);
+                formTvorbaFaktur.ShowDialog();
+            }
+            else
+            {
+                MessageBox.Show("Vyberte zákazníka pro vytvoření faktury");
+            }
+        }
     }
 }

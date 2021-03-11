@@ -52,6 +52,12 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormFakturaNahled.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormFakturaNahled.Designer.cs">
+      <DependentUpon>FormFakturaNahled.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormTvorbaFaktur.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -89,6 +95,9 @@
     <Compile Include="Zbozi.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormFakturaNahled.resx">
+      <DependentUpon>FormFakturaNahled.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormTvorbaFaktur.resx">
       <DependentUpon>FormTvorbaFaktur.cs</DependentUpon>

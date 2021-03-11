@@ -60,7 +60,7 @@
             this.buttonTvorbaFaktur.Name = "buttonTvorbaFaktur";
             this.buttonTvorbaFaktur.Size = new System.Drawing.Size(173, 143);
             this.buttonTvorbaFaktur.TabIndex = 2;
-            this.buttonTvorbaFaktur.Text = "Tvorba faktur";
+            this.buttonTvorbaFaktur.Text = "Faktury";
             this.buttonTvorbaFaktur.UseVisualStyleBackColor = true;
             this.buttonTvorbaFaktur.Click += new System.EventHandler(this.buttonTvorbaFaktur_Click);
             // 

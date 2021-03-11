@@ -31,8 +31,7 @@ namespace FakturaceTestPtacnik
 
         private void buttonTvorbaFaktur_Click(object sender, EventArgs e)
         {
-            FormTvorbaFaktur formTvorbaFaktur = new FormTvorbaFaktur();
-            formTvorbaFaktur.ShowDialog();
+    
         }
     }
 }

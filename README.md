@@ -1,3 +1,2 @@
 # Fakturace2021
 
-Base repository for school test ...
